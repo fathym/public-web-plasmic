@@ -15,7 +15,14 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@plasmicapp/cli": "^0.1.186",
+    "@plasmicapp/host": "^1.0.80",
     "@plasmicapp/loader-gatsby": "^1.0.173",
+    "@plasmicapp/react-web": "^0.2.112",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.86",
+    "@plasmicpkgs/react-awesome-reveal": "^3.8.80",
+    "@plasmicpkgs/react-scroll-parallax": "^0.0.85",
+    "@plasmicpkgs/react-youtube": "^7.13.83",
     "gatsby": "^4.24.1",
     "gatsby-plugin-react-helmet": "^5.24.0",
     "react": "^18.1.0",
