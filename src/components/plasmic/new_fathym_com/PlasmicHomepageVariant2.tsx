@@ -1199,7 +1199,7 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
                       </span>
                       <React.Fragment>
                         {
-                          " to rapidly release changes, upgrades, rollbacks and fixes.\n\n\n\n\n\n\n"
+                          " to rapidly release changes, upgrades, rollbacks and fixes.\n\n"
                         }
                       </React.Fragment>
                     </React.Fragment>

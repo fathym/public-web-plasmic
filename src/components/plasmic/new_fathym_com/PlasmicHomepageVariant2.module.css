@@ -1316,13 +1316,14 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .ol {
-    width: 380px;
+    width: 332px;
     margin-right: 0px;
     margin-left: 0px;
     height: 300px;
     margin-bottom: 0px;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-left: 52px;
   }
 }
 .li__g1XRe {
@@ -1335,10 +1336,10 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .li__g1XRe {
-    width: 315px;
+    width: 216px;
     padding-left: 0px;
     margin-left: 0px;
-    padding-right: 48px;
+    padding-right: 4px;
   }
 }
 .li__lZ7B {
@@ -1349,9 +1350,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .li__lZ7B {
-    width: 289px;
+    width: 223px;
     padding-left: 6px;
-    margin-right: 98px;
+    margin-right: 0px;
   }
 }
 .li__i2UCd {
@@ -1362,7 +1363,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .li__i2UCd {
-    width: 275px;
+    width: 215px;
+    padding-right: 15px;
+    margin-left: 0px;
   }
 }
 .li__xnuU {
@@ -1376,7 +1379,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .li__xnuU {
     margin-right: 0px;
-    width: 250px;
+    width: 222px;
   }
 }
 .li__l0Ono {
@@ -1389,7 +1392,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .li__l0Ono {
-    width: 252px;
+    width: 205px;
     margin-right: 0px;
     padding-bottom: 0px;
   }
@@ -1542,6 +1545,7 @@
     max-height: none;
     margin-left: calc(0px + 0px) !important;
     margin-right: 0px;
+    margin-bottom: 0px;
   }
 }
 .scrollParallax__wKnNp:global(.__wab_instance) {
@@ -1851,8 +1855,8 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .text__jPzIb {
     padding-top: 0px;
-    max-width: 350px;
-    width: auto;
+    max-width: 301px;
+    width: 100%;
     margin-right: 3px;
     margin-left: 0px;
     padding-bottom: 0px;
@@ -1861,6 +1865,7 @@
     position: relative;
     left: auto;
     top: auto;
+    min-width: 0;
   }
 }
 .column__eY3L8 {
@@ -1901,8 +1906,10 @@
     padding-bottom: 0px;
     text-align: left;
     padding-right: 0px;
-    max-width: 350px;
-    width: auto;
+    max-width: 299px;
+    width: 100%;
+    margin-right: 0px;
+    min-width: 0;
   }
 }
 .centeredSection:global(.__wab_instance) {
