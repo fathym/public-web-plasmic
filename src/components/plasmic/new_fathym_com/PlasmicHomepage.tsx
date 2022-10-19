@@ -272,46 +272,75 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.column__pKjij
                               )}
                             >
+                              {true ? (
+                                <Button
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.button__jGjip
+                                  )}
+                                  color={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? ("blue" as const)
+                                      : ("blue" as const)
+                                  }
+                                  endIcon={
+                                    <ChevronRightIcon
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.svg__s07XP
+                                      )}
+                                      role={"img"}
+                                    />
+                                  }
+                                  link={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? ("https://www.fathym.com/dashboard" as const)
+                                      : ("https://www.fathym.com/dashboard" as const)
+                                  }
+                                  showEndIcon={
+                                    hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobileOnly"
+                                    )
+                                      ? true
+                                      : true
+                                  }
+                                >
+                                  <p.PlasmicLink
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      projectcss.__wab_text,
+                                      sty.link__kdWy
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://www.fathym.com/dashboard" as const
+                                    }
+                                    platform={"gatsby"}
+                                  >
+                                    {"Get Started for Free"}
+                                  </p.PlasmicLink>
+                                </Button>
+                              ) : null}
+
                               <Button
                                 className={classNames(
                                   "__wab_instance",
-                                  sty.button__jGjip
+                                  sty.button___6JtU
                                 )}
-                                color={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? ("blue" as const)
-                                    : ("blue" as const)
-                                }
-                                endIcon={
-                                  <ChevronRightIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__s07XP
-                                    )}
-                                    role={"img"}
-                                  />
-                                }
+                                color={"blue" as const}
                                 link={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? ("https://www.fathym.com/dashboard" as const)
-                                    : ("https://www.fathym.com/dashboard" as const)
-                                }
-                                showEndIcon={
-                                  hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobileOnly"
-                                  )
-                                    ? true
-                                    : true
+                                  "https://www.fathym.com/dashboard" as const
                                 }
                               >
                                 <p.PlasmicLink
@@ -319,7 +348,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     projectcss.all,
                                     projectcss.a,
                                     projectcss.__wab_text,
-                                    sty.link__kdWy
+                                    sty.link___5TcXw
                                   )}
                                   component={Link}
                                   href={
@@ -562,36 +591,58 @@ function PlasmicHomepage__RenderFunc(props: {
                     </div>
                   </div>
 
+                  {true ? (
+                    <Button
+                      className={classNames("__wab_instance", sty.button__w2R2)}
+                      color={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("blue" as const)
+                          : ("blue" as const)
+                      }
+                      endIcon={
+                        <ChevronRightIcon
+                          className={classNames(projectcss.all, sty.svg__a8MgA)}
+                          role={"img"}
+                        />
+                      }
+                      link={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("https://www.fathym.com/dashboard" as const)
+                          : ("https://www.fathym.com/dashboard" as const)
+                      }
+                      showEndIcon={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      }
+                    >
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___5Npm
+                        )}
+                        component={Link}
+                        href={"https://www.fathym.com/dashboard" as const}
+                        platform={"gatsby"}
+                      >
+                        {"Get Started for Free"}
+                      </p.PlasmicLink>
+                    </Button>
+                  ) : null}
+
                   <Button
-                    className={classNames("__wab_instance", sty.button__w2R2)}
-                    color={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("blue" as const)
-                        : ("blue" as const)
-                    }
-                    endIcon={
-                      <ChevronRightIcon
-                        className={classNames(projectcss.all, sty.svg__a8MgA)}
-                        role={"img"}
-                      />
-                    }
-                    link={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("https://www.fathym.com/dashboard" as const)
-                        : ("https://www.fathym.com/dashboard" as const)
-                    }
-                    showEndIcon={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    }
+                    className={classNames("__wab_instance", sty.button__kwMjP)}
+                    color={"blue" as const}
+                    link={"https://www.fathym.com/dashboard" as const}
                   >
                     <p.PlasmicLink
                       className={classNames(
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
-                        sty.link___5Npm
+                        sty.link__gBiNn
                       )}
                       component={Link}
                       href={"https://www.fathym.com/dashboard" as const}
@@ -738,39 +789,67 @@ function PlasmicHomepage__RenderFunc(props: {
                       </div>
                     </div>
 
+                    {true ? (
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button___0Q9H7
+                        )}
+                        color={
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? ("blue" as const)
+                            : ("blue" as const)
+                        }
+                        endIcon={
+                          <ChevronRightIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__vl4Dj
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        link={
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? ("https://www.fathym.com/dashboard" as const)
+                            : ("https://www.fathym.com/dashboard" as const)
+                        }
+                        showEndIcon={
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? true
+                            : true
+                        }
+                      >
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__k8T5W
+                          )}
+                          component={Link}
+                          href={"https://www.fathym.com/dashboard" as const}
+                          platform={"gatsby"}
+                        >
+                          {"Get Started for Free"}
+                        </p.PlasmicLink>
+                      </Button>
+                    ) : null}
+
                     <Button
                       className={classNames(
                         "__wab_instance",
-                        sty.button___0Q9H7
+                        sty.button___8Idg5
                       )}
-                      color={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ("blue" as const)
-                          : ("blue" as const)
-                      }
-                      endIcon={
-                        <ChevronRightIcon
-                          className={classNames(projectcss.all, sty.svg__vl4Dj)}
-                          role={"img"}
-                        />
-                      }
-                      link={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ("https://www.fathym.com/dashboard" as const)
-                          : ("https://www.fathym.com/dashboard" as const)
-                      }
-                      showEndIcon={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? true
-                          : true
-                      }
+                      color={"blue" as const}
+                      link={"https://www.fathym.com/dashboard" as const}
                     >
                       <p.PlasmicLink
                         className={classNames(
                           projectcss.all,
                           projectcss.a,
                           projectcss.__wab_text,
-                          sty.link__k8T5W
+                          sty.link__ftGjP
                         )}
                         component={Link}
                         href={"https://www.fathym.com/dashboard" as const}
@@ -1060,35 +1139,16 @@ function PlasmicHomepage__RenderFunc(props: {
                   </div>
 
                   <Button
-                    className={classNames("__wab_instance", sty.button__lYZlo)}
-                    color={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("blue" as const)
-                        : ("blue" as const)
-                    }
-                    endIcon={
-                      <ChevronRightIcon
-                        className={classNames(projectcss.all, sty.svg__iQdA1)}
-                        role={"img"}
-                      />
-                    }
-                    link={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("https://www.fathym.com/dashboard" as const)
-                        : ("https://www.fathym.com/dashboard" as const)
-                    }
-                    showEndIcon={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    }
+                    className={classNames("__wab_instance", sty.button__zAnRc)}
+                    color={"blue" as const}
+                    link={"https://www.fathym.com/dashboard" as const}
                   >
                     <p.PlasmicLink
                       className={classNames(
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
-                        sty.link__hfHex
+                        sty.link__oeRip
                       )}
                       component={Link}
                       href={"https://www.fathym.com/dashboard" as const}
@@ -1097,6 +1157,50 @@ function PlasmicHomepage__RenderFunc(props: {
                       {"Get Started for Free"}
                     </p.PlasmicLink>
                   </Button>
+
+                  {true ? (
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__lYZlo
+                      )}
+                      color={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("blue" as const)
+                          : ("blue" as const)
+                      }
+                      endIcon={
+                        <ChevronRightIcon
+                          className={classNames(projectcss.all, sty.svg__iQdA1)}
+                          role={"img"}
+                        />
+                      }
+                      link={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("https://www.fathym.com/dashboard" as const)
+                          : ("https://www.fathym.com/dashboard" as const)
+                      }
+                      showEndIcon={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      }
+                    >
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__hfHex
+                        )}
+                        component={Link}
+                        href={"https://www.fathym.com/dashboard" as const}
+                        platform={"gatsby"}
+                      >
+                        {"Get Started for Free"}
+                      </p.PlasmicLink>
+                    </Button>
+                  ) : null}
                 </div>
               </div>
 
