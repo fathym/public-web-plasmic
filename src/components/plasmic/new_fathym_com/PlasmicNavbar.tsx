@@ -395,7 +395,7 @@ function PlasmicNavbar__RenderFunc(props: {
               data-plasmic-override={overrides.login}
               className={classNames(projectcss.all, projectcss.a, sty.login)}
               component={Link}
-              href={"/dashboard/" as const}
+              href={"https://www.fathym.com/dashboard" as const}
               platform={"gatsby"}
             >
               <div

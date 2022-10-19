@@ -301,7 +301,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "screen",
                                     "mobileOnly"
                                   )
-                                    ? ("/dashboard/create-project" as const)
+                                    ? ("https://www.fathym.com/dashboard" as const)
                                     : ("https://www.fathym.com/dashboard" as const)
                                 }
                                 showEndIcon={
@@ -577,7 +577,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     }
                     link={
                       hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("/dashboard/create-project" as const)
+                        ? ("https://www.fathym.com/dashboard" as const)
                         : ("https://www.fathym.com/dashboard" as const)
                     }
                     showEndIcon={
@@ -756,7 +756,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       }
                       link={
                         hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ("/dashboard/create-project" as const)
+                          ? ("https://www.fathym.com/dashboard" as const)
                           : ("https://www.fathym.com/dashboard" as const)
                       }
                       showEndIcon={
@@ -1074,7 +1074,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     }
                     link={
                       hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("/dashboard/create-project" as const)
+                        ? ("https://www.fathym.com/dashboard" as const)
                         : ("https://www.fathym.com/dashboard" as const)
                     }
                     showEndIcon={

@@ -2087,5 +2087,6 @@
     margin-left: calc(5px + 0px) !important;
     width: 460px;
     margin-right: 0px;
+    flex-shrink: 0;
   }
 }

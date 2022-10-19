@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&display=swap");
 
 .plasmic_default_styles {
-  --mixin-YJgNnsQuodVQ_font-family: "Inter";
+  --mixin-YJgNnsQuodVQ_font-family: "Inter", sans-serif;
   --mixin-YJgNnsQuodVQ_font-size: 16px;
   --mixin-YJgNnsQuodVQ_font-weight: 400;
   --mixin-YJgNnsQuodVQ_font-style: normal;
@@ -20,7 +20,7 @@
   --mixin-f8WQSAlCEjAv_line-height: 1;
   --mixin-f8WQSAlCEjAv_letter-spacing: -4px;
   --mixin-f8WQSAlCEjAv_white-space: pre-wrap;
-  --mixin-mHbIIPg78Gz__font-family: "Inter";
+  --mixin-mHbIIPg78Gz__font-family: "Inter", sans-serif;
   --mixin-mHbIIPg78Gz__color: #000000;
   --mixin-mHbIIPg78Gz__font-size: 48px;
   --mixin-mHbIIPg78Gz__font-weight: 700;
@@ -29,14 +29,14 @@
   --mixin-mHbIIPg78Gz__white-space: pre-wrap;
   --mixin-m78P-uU-13HL_color: #0070f3;
   --mixin-m78P-uU-13HL_white-space: pre-wrap;
-  --mixin-qgeFatcx6kMB_font-family: "Inter";
+  --mixin-qgeFatcx6kMB_font-family: "Inter", sans-serif;
   --mixin-qgeFatcx6kMB_color: #000000;
   --mixin-qgeFatcx6kMB_font-size: 32px;
   --mixin-qgeFatcx6kMB_font-weight: 600;
   --mixin-qgeFatcx6kMB_letter-spacing: -0.8px;
   --mixin-qgeFatcx6kMB_line-height: 1.2;
   --mixin-qgeFatcx6kMB_white-space: pre-wrap;
-  --mixin-138dp3klXfON_font-family: "Inter";
+  --mixin-138dp3klXfON_font-family: "Inter", sans-serif;
   --mixin-138dp3klXfON_color: #000000;
   --mixin-138dp3klXfON_font-size: 24px;
   --mixin-138dp3klXfON_font-weight: 600;
@@ -113,14 +113,14 @@
   --mixin-F_6Mx1j0bzVnu_position: relative;
   --mixin-F_6Mx1j0bzVnu_list-style-type: decimal;
   --mixin-F_6Mx1j0bzVnu_white-space: pre-wrap;
-  --mixin-FLhvtXulA30j5_font-family: "Inter";
+  --mixin-FLhvtXulA30j5_font-family: "Inter", sans-serif;
   --mixin-FLhvtXulA30j5_color: #000000;
   --mixin-FLhvtXulA30j5_font-size: 20px;
   --mixin-FLhvtXulA30j5_font-weight: 600;
   --mixin-FLhvtXulA30j5_letter-spacing: -0.3px;
   --mixin-FLhvtXulA30j5_line-height: 1.5;
   --mixin-FLhvtXulA30j5_white-space: pre-wrap;
-  --mixin-CYyZcWY-I61Cc_font-family: "Inter";
+  --mixin-CYyZcWY-I61Cc_font-family: "Inter", sans-serif;
   --mixin-CYyZcWY-I61Cc_color: #000000;
   --mixin-CYyZcWY-I61Cc_font-size: 16px;
   --mixin-CYyZcWY-I61Cc_font-weight: 600;

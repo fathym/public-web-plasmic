@@ -34,6 +34,8 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 
+import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: BzFq34bwReL2/globalVariant
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
@@ -101,6 +103,10 @@ function PlasmicFathymFooter__RenderFunc(props: {
     ...variants
   };
 
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsbzFq34BwReL2()
+  });
+
   return (
     <div
       data-plasmic-name={"root"}
@@ -122,8 +128,6 @@ function PlasmicFathymFooter__RenderFunc(props: {
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox__tPsE)}
       >
-        <div className={classNames(projectcss.all, sty.freeBox__tae1)} />
-
         <p.PlasmicImg
           alt={""}
           className={classNames(sty.img__yzwZr)}
@@ -386,8 +390,6 @@ function PlasmicFathymFooter__RenderFunc(props: {
             </p.PlasmicLink>
           </p.Stack>
         </div>
-
-        <div className={classNames(projectcss.all, sty.freeBox___8Nf7O)} />
 
         <div className={classNames(projectcss.all, sty.freeBox__luVcc)}>
           <div className={classNames(projectcss.all, sty.freeBox__pb4Zp)}>

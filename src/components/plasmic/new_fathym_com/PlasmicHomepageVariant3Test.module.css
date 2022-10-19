@@ -2093,5 +2093,6 @@
     margin-left: 29px;
     width: 489px;
     margin-right: 0px;
+    flex-shrink: 0;
   }
 }
