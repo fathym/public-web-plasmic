@@ -37,7 +37,7 @@ import Navbar from "../../Navbar"; // plasmic-import: C-c1_GprIs0E/component
 import { ParallaxWrapper } from "@plasmicpkgs/react-scroll-parallax"; // plasmic-import: bozP4lLlAZ/codeComponent
 import GetStartedForFreeButton from "../../GetStartedForFreeButton"; // plasmic-import: 4YW8uNKcBZ/component
 import CenteredSection from "../../CenteredSection"; // plasmic-import: yoezpFd4_O/component
-import FathymFooter from "../../FathymFooter"; // plasmic-import: 3jTJ0D37Jf/component
+import UpdatedFathymFooter from "../../UpdatedFathymFooter"; // plasmic-import: QtxVTjIxZI/component
 
 import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: BzFq34bwReL2/globalVariant
 
@@ -77,7 +77,7 @@ export type PlasmicHomepageVariant2__OverridesType = {
   link?: p.Flex<"a"> & Partial<LinkProps>;
   ol?: p.Flex<"ol">;
   centeredSection?: p.Flex<typeof CenteredSection>;
-  fathymFooter?: p.Flex<typeof FathymFooter>;
+  updatedFathymFooter?: p.Flex<typeof UpdatedFathymFooter>;
 };
 
 export interface DefaultHomepageVariant2Props {
@@ -1692,10 +1692,10 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
             </div>
           </div>
 
-          <FathymFooter
-            data-plasmic-name={"fathymFooter"}
-            data-plasmic-override={overrides.fathymFooter}
-            className={classNames("__wab_instance", sty.fathymFooter)}
+          <UpdatedFathymFooter
+            data-plasmic-name={"updatedFathymFooter"}
+            data-plasmic-override={overrides.updatedFathymFooter}
+            className={classNames("__wab_instance", sty.updatedFathymFooter)}
           />
         </p.Stack>
       </div>
@@ -1711,14 +1711,14 @@ const PlasmicDescendants = {
     "link",
     "ol",
     "centeredSection",
-    "fathymFooter"
+    "updatedFathymFooter"
   ],
   navbar: ["navbar"],
   learnMore: ["learnMore"],
   link: ["link"],
   ol: ["ol"],
   centeredSection: ["centeredSection"],
-  fathymFooter: ["fathymFooter"]
+  updatedFathymFooter: ["updatedFathymFooter"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1730,7 +1730,7 @@ type NodeDefaultElementType = {
   link: "a";
   ol: "ol";
   centeredSection: typeof CenteredSection;
-  fathymFooter: typeof FathymFooter;
+  updatedFathymFooter: typeof UpdatedFathymFooter;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1799,7 +1799,7 @@ export const PlasmicHomepageVariant2 = Object.assign(
     link: makeNodeComponent("link"),
     ol: makeNodeComponent("ol"),
     centeredSection: makeNodeComponent("centeredSection"),
-    fathymFooter: makeNodeComponent("fathymFooter"),
+    updatedFathymFooter: makeNodeComponent("updatedFathymFooter"),
 
     // Metadata about props expected for PlasmicHomepageVariant2
     internalVariantProps: PlasmicHomepageVariant2__VariantProps,

@@ -2468,3 +2468,9 @@
   position: relative;
   display: flex;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .fathymFooter:global(.__wab_instance) {
+    width: 455px;
+    flex-shrink: 0;
+  }
+}

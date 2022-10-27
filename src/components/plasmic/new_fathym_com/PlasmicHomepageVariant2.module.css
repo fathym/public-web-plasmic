@@ -2078,14 +2078,12 @@
   max-width: 100%;
   position: relative;
 }
-.fathymFooter:global(.__wab_instance) {
-  max-width: 100%;
+.updatedFathymFooter:global(.__wab_instance):global(.__wab_instance) {
   position: relative;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .fathymFooter:global(.__wab_instance) {
+  .updatedFathymFooter:global(.__wab_instance):global(.__wab_instance) {
     margin-left: calc(5px + 0px) !important;
-    width: 460px;
     margin-right: 0px;
     flex-shrink: 0;
   }

@@ -128,23 +128,25 @@ function PlasmicNavbar__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__frDTk)}
         >
+          {true ? (
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__fPaPp
+              )}
+            >
+              {hasVariant(globalVariants, "screen", "mobileOnly")
+                ? "fathym"
+                : "fathym"}
+            </div>
+          ) : null}
+
           <Logo
             data-plasmic-name={"logo"}
             data-plasmic-override={overrides.logo}
             className={classNames("__wab_instance", sty.logo)}
           />
-
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__fPaPp
-            )}
-          >
-            {hasVariant(globalVariants, "screen", "mobileOnly")
-              ? "fathym"
-              : "fathym"}
-          </div>
 
           {(
             hasVariant(globalVariants, "screen", "mobileOnly") ? true : true

@@ -58,6 +58,7 @@
   z-index: 0;
   min-width: 0;
   min-height: 0;
+  display: none;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text__fPaPp {
@@ -68,6 +69,11 @@
     padding-top: 9px;
     padding-left: 31px;
   }
+}
+.logo:global(.__wab_instance) {
+  width: 100%;
+  max-width: 1075px;
+  min-width: 0;
 }
 .freeBox__daRol {
   flex-direction: row;

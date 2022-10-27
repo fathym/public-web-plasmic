@@ -42,7 +42,7 @@ import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_colo
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicLogo.module.css"; // plasmic-import: mDNIC-FBlOxc/css
 
-import logoGJeDebfEcyln from "./images/logo.png"; // plasmic-import: GJeDEBFEcyln/picture
+import fathymaqua01SvgTxL1KKoqt from "./images/fathymaqua01Svg.svg"; // plasmic-import: txL1k-Koqt/picture
 
 export type PlasmicLogo__VariantMembers = {
   _50Opaque: "_50Opaque";
@@ -139,10 +139,10 @@ function PlasmicLogo__RenderFunc(props: {
         displayMinWidth={"0" as const}
         displayWidth={"auto" as const}
         src={{
-          src: logoGJeDebfEcyln,
-          fullWidth: 158,
-          fullHeight: 135,
-          aspectRatio: undefined
+          src: fathymaqua01SvgTxL1KKoqt,
+          fullWidth: 300,
+          fullHeight: 97,
+          aspectRatio: 3.083538
         }}
       />
     </p.PlasmicLink>

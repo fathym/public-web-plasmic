@@ -43,8 +43,7 @@
           "name": "ParallaxProviderWrapper",
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -63,8 +62,7 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -98,8 +96,7 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
@@ -118,8 +115,7 @@
           "name": "YouTube",
           "componentImportPath": "@plasmicpkgs/react-youtube"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "seaQhLVS4bbjiGvJJrRwyL",
@@ -767,6 +763,19 @@
             "modulePath": "GetStartedForFreeButton.tsx"
           },
           "cssFilePath": "plasmic/new_fathym_com/PlasmicGetStartedForFreeButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QtxVTjIxZI",
+          "name": "UpdatedFathymFooter",
+          "type": "managed",
+          "projectId": "jbURxL3XuiMBQsLhf7apui",
+          "renderModuleFilePath": "plasmic/new_fathym_com/PlasmicUpdatedFathymFooter.tsx",
+          "importSpec": {
+            "modulePath": "UpdatedFathymFooter.tsx"
+          },
+          "cssFilePath": "plasmic/new_fathym_com/PlasmicUpdatedFathymFooter.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
@@ -1728,6 +1737,16 @@
           "id": "RztsivgYd",
           "name": "MicrosoftTeams-image (9).png",
           "filePath": "plasmic/new_fathym_com/images/microsoftTeamsImage9Png.png"
+        },
+        {
+          "id": "Vf5pizhdD4",
+          "name": "Fathym-logo-aqua-01 (2)_adobe_express.svg",
+          "filePath": "plasmic/new_fathym_com/images/fathymLogoAqua012AdobeExpresssvg.svg"
+        },
+        {
+          "id": "txL1k-Koqt",
+          "name": "fathymaqua-01.svg",
+          "filePath": "plasmic/new_fathym_com/images/fathymaqua01Svg.svg"
         }
       ],
       "indirect": false,
