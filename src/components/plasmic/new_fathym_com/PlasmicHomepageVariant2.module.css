@@ -50,7 +50,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .navbar:global(.__wab_instance) {
     margin-left: calc(0px + 0px) !important;
-    max-width: 419px;
+    max-width: 100%;
     width: 100%;
     min-width: 0;
   }

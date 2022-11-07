@@ -252,25 +252,51 @@ function PlasmicHomepageVariant3Test__RenderFunc(props: {
                                 sty.h1
                               )}
                             >
-                              <React.Fragment>
-                                <span
-                                  className={
-                                    "plasmic_default__all plasmic_default__span"
-                                  }
-                                  style={{ color: "#000000" }}
-                                >
-                                  {"Fast, Flexible."}
-                                </span>
-                                <React.Fragment>{"\n"}</React.Fragment>
-                                <span
-                                  className={
-                                    "plasmic_default__all plasmic_default__span"
-                                  }
-                                  style={{ color: "#000000" }}
-                                >
-                                  {"Future-Proof."}
-                                </span>
-                              </React.Fragment>
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              ) ? (
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#000000" }}
+                                  >
+                                    {"Fast, Flexible."}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#000000" }}
+                                  >
+                                    {"Future-Proof."}
+                                  </span>
+                                </React.Fragment>
+                              ) : (
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#000000" }}
+                                  >
+                                    {"Fast, Flexible."}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#000000" }}
+                                  >
+                                    {"Future-Proof."}
+                                  </span>
+                                </React.Fragment>
+                              )}
                             </h1>
 
                             <div

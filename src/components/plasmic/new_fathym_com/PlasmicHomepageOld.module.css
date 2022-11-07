@@ -18,7 +18,7 @@
   z-index: auto;
   background: linear-gradient(#ffffff80, #ffffff80),
     url("./images/wavey.png") top 50% left 50% / cover repeat;
-  padding: 0px 32px 64px;
+  padding: 0px;
 }
 .headerHeroSection > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -39,14 +39,14 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .headerHeroSection {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .navbar:global(.__wab_instance) {
     margin-left: 0px;
-    max-width: 419px;
+    max-width: 100%;
     width: 100%;
     min-width: 0;
   }

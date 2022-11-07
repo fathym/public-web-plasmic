@@ -2953,7 +2953,8 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "cEHjHBABazmDxgQhPGAjL",
@@ -3796,7 +3797,8 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

@@ -10,7 +10,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .navbar:global(.__wab_instance) {
     margin-left: 0px;
-    max-width: 419px;
+    max-width: 100%;
     width: 100%;
     min-width: 0;
   }
