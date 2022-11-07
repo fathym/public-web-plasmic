@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicDivider,
   DefaultDividerProps
-} from "./plasmic/new_fathym_com/PlasmicDivider";
+} from "./plasmic/new_habistack_com/PlasmicDivider";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

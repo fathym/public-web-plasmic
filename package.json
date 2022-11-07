@@ -15,10 +15,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.186",
+    "@plasmicapp/cli": "^0.1.187",
     "@plasmicapp/host": "^1.0.80",
     "@plasmicapp/loader-gatsby": "^1.0.173",
-    "@plasmicapp/react-web": "^0.2.112",
+    "@plasmicapp/react-web": "^0.2.119",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.86",
     "@plasmicpkgs/react-awesome-reveal": "^3.8.80",
     "@plasmicpkgs/react-scroll-parallax": "^0.0.85",

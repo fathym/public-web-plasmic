@@ -48,6 +48,8 @@ import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
+import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicLandingPagesGatsby2Test.module.css"; // plasmic-import: l_3anF0QEEH/css
 
@@ -158,6 +160,8 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsbzFq34BwReL2()
   });
@@ -183,6 +187,8 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
+            plasmic_new_habistack_com_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -356,7 +362,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__kO3Mc)}
+                    className={classNames(projectcss.all, sty.freeBox__k59Y4)}
                   >
                     {true ? (
                       <p.Stack
@@ -364,7 +370,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         hasGap={true}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__nuOoY
+                          sty.freeBox__sXv4B
                         )}
                       >
                         <ValueProp
@@ -533,7 +539,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__p2NTv
+                        sty.text__iesho
                       )}
                     >
                       {"Do it Yourself"}
@@ -544,7 +550,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__ciVwm
+                      sty.text___3NHiv
                     )}
                   >
                     {
@@ -553,10 +559,10 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.columns__jGQr)}
+                    className={classNames(projectcss.all, sty.columns___6FTP)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.column__fEaxU)}
+                      className={classNames(projectcss.all, sty.column__xAYll)}
                     >
                       <Button
                         className={classNames(
@@ -573,7 +579,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                     </div>
 
                     <div
-                      className={classNames(projectcss.all, sty.column__zypuv)}
+                      className={classNames(projectcss.all, sty.column__ullbQ)}
                     >
                       {true ? (
                         <Button
@@ -955,7 +961,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__muGj5
+                            sty.valueProp___7Nme3
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1015,7 +1021,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__yuEoS
+                            sty.valueProp__ajpsl
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1034,7 +1040,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__x6Xux
+                            sty.valueProp__vtdPj
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1105,7 +1111,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__vd8AV
+                            sty.valueProp__dQv7
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1124,7 +1130,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__bXfxm
+                            sty.valueProp__uiF0R
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1143,7 +1149,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__ipej
+                            sty.valueProp__kRUvC
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1214,7 +1220,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__xo6Lk
+                            sty.valueProp__v5Q36
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1233,7 +1239,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__kx9Lm
+                            sty.valueProp__pgXCu
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1252,7 +1258,7 @@ function PlasmicLandingPagesGatsby2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp___0EluE
+                            sty.valueProp__p4TgP
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}

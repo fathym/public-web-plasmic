@@ -48,6 +48,8 @@ import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
+import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicLandingPagesAngular2Test.module.css"; // plasmic-import: zA550Sjzi3Z/css
 
@@ -161,6 +163,8 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsbzFq34BwReL2()
   });
@@ -186,6 +190,8 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
+            plasmic_new_habistack_com_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -362,12 +368,12 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__kO3Mc)}
+                  className={classNames(projectcss.all, sty.freeBox__agWuV)}
                 >
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__nuOoY)}
+                    className={classNames(projectcss.all, sty.freeBox__dIeF)}
                   >
                     {(
                       hasVariant(globalVariants, "screen", "mobileOnly")
@@ -417,7 +423,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text___55WFh
+                                    sty.text__dUhzt
                                   )}
                                 >
                                   {"React Deployments >"}
@@ -428,7 +434,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                                 <Button
                                   className={classNames(
                                     "__wab_instance",
-                                    sty.button__orvOt
+                                    sty.button__eI3Bf
                                   )}
                                   link={"/react" as const}
                                 >
@@ -499,7 +505,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text___2InBy
+                                    sty.text__mf6J4
                                   )}
                                 >
                                   {"Vue Deployments >"}
@@ -510,7 +516,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                                 <Button
                                   className={classNames(
                                     "__wab_instance",
-                                    sty.button__jc7Vf
+                                    sty.button__uAlRp
                                   )}
                                   link={"/vue" as const}
                                 >
@@ -583,7 +589,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text__sOugM
+                                    sty.text__ly3Xx
                                   )}
                                 >
                                   {"Svelte Deployments >"}
@@ -594,7 +600,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                                 <Button
                                   className={classNames(
                                     "__wab_instance",
-                                    sty.button__tcixz
+                                    sty.button__ufOvi
                                   )}
                                   link={"/svelte-deployment" as const}
                                 >
@@ -646,7 +652,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__p2NTv
+                          sty.text__w1ZHo
                         )}
                       >
                         {"Do it Yourself"}
@@ -657,7 +663,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__ciVwm
+                        sty.text__t00th
                       )}
                     >
                       {
@@ -666,12 +672,12 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                     </div>
 
                     <div
-                      className={classNames(projectcss.all, sty.columns__eNf1S)}
+                      className={classNames(projectcss.all, sty.columns__bqfFd)}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column___8URFu
+                          sty.column__cq0Vc
                         )}
                       >
                         <Button
@@ -691,14 +697,14 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column__rdhWw
+                          sty.column__nds8R
                         )}
                       >
                         <p.PlasmicLink
                           className={classNames(
                             projectcss.all,
                             projectcss.a,
-                            sty.link__xKbY
+                            sty.link__zQGk
                           )}
                           component={Link}
                           href={
@@ -710,7 +716,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                             className={classNames(
                               projectcss.all,
                               projectcss.__wab_text,
-                              sty.text__uNsew
+                              sty.text__emC
                             )}
                           >
                             {"Read Documentation >"}
@@ -1065,7 +1071,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__gnokw
+                            sty.valueProp__tvRD
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1125,7 +1131,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__ei9F8
+                            sty.valueProp__xyc5
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1144,7 +1150,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__dTtgk
+                            sty.valueProp___5SOg
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1215,7 +1221,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__gs9On
+                            sty.valueProp__zbMy
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1234,7 +1240,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__bwxTo
+                            sty.valueProp__jAtPk
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1253,7 +1259,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__qaKSn
+                            sty.valueProp__bLvmt
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1324,7 +1330,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__tmobF
+                            sty.valueProp__tUnil
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1343,7 +1349,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__aoQ61
+                            sty.valueProp__wG0Ue
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1362,7 +1368,7 @@ function PlasmicLandingPagesAngular2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp___5VoB
+                            sty.valueProp__x7Gg5
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}

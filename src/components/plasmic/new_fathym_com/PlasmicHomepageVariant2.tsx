@@ -44,6 +44,8 @@ import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
+import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicHomepageVariant2.module.css"; // plasmic-import: uslE6cORX7L/css
 
@@ -153,6 +155,8 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsbzFq34BwReL2()
   });
@@ -180,6 +184,8 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
+            plasmic_new_habistack_com_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -1131,7 +1137,7 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
                       displayMinWidth={"0" as const}
                       displayWidth={
                         hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? ("380px" as const)
+                          ? ("100%" as const)
                           : ("auto" as const)
                       }
                       loading={"lazy" as const}
@@ -1441,17 +1447,31 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
                 sty.h2__j71Ux
               )}
             >
-              <React.Fragment>
+              {hasVariant(globalVariants, "screen", "mobileOnly") ? (
                 <React.Fragment>
-                  {"Leverage the power of Azure\n"}
+                  <React.Fragment>
+                    {"Leverage the power of Azure,\n"}
+                  </React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#5856D6" }}
+                  >
+                    {"minus the complexity."}
+                  </span>
                 </React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ color: "#5856D6" }}
-                >
-                  {"minus the complexity."}
-                </span>
-              </React.Fragment>
+              ) : (
+                <React.Fragment>
+                  <React.Fragment>
+                    {"Leverage the power of Azure,\n"}
+                  </React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#5856D6" }}
+                  >
+                    {"minus the complexity."}
+                  </span>
+                </React.Fragment>
+              )}
             </h2>
 
             <div
@@ -1624,7 +1644,7 @@ function PlasmicHomepageVariant2__RenderFunc(props: {
               className={classNames(sty.img__uMqIb)}
               displayHeight={
                 hasVariant(globalVariants, "screen", "mobileOnly")
-                  ? ("458px" as const)
+                  ? ("auto" as const)
                   : ("455px" as const)
               }
               displayMaxHeight={"none" as const}

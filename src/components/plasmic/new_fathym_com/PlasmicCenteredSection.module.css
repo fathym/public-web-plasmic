@@ -9,7 +9,7 @@
   height: auto;
   position: relative;
   min-width: 0;
-  padding: 64px 32px;
+  padding: 50px 32px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .root {

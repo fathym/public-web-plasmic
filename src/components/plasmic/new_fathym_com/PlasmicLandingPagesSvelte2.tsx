@@ -48,6 +48,8 @@ import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
+import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicLandingPagesSvelte2.module.css"; // plasmic-import: OdRS0mW2EXa/css
 
@@ -155,6 +157,8 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsbzFq34BwReL2()
   });
@@ -180,6 +184,8 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
+            plasmic_new_habistack_com_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -328,12 +334,12 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__kO3Mc)}
+                className={classNames(projectcss.all, sty.freeBox__uIpYh)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__nuOoY)}
+                  className={classNames(projectcss.all, sty.freeBox__e6Ks)}
                 >
                   <Reveal
                     className={classNames("__wab_instance", sty.reveal__qxkSc)}
@@ -373,7 +379,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text__mglrP
+                                sty.text__fzlk0
                               )}
                             >
                               {"React Deployments >"}
@@ -384,7 +390,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                             <Button
                               className={classNames(
                                 "__wab_instance",
-                                sty.button__orvOt
+                                sty.button__qiUvO
                               )}
                               link={"/react" as const}
                             >
@@ -442,7 +448,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text___759G8
+                                sty.text__kkvj6
                               )}
                             >
                               {"Vue Deployments >"}
@@ -453,7 +459,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                             <Button
                               className={classNames(
                                 "__wab_instance",
-                                sty.button__jc7Vf
+                                sty.button__q4SUk
                               )}
                               link={"/vue" as const}
                             >
@@ -511,7 +517,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                               className={classNames(
                                 projectcss.all,
                                 projectcss.__wab_text,
-                                sty.text__vVgMu
+                                sty.text__pQZu
                               )}
                             >
                               {"Angular Deployments >"}
@@ -522,7 +528,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                             <Button
                               className={classNames(
                                 "__wab_instance",
-                                sty.button__tcixz
+                                sty.button__fT4V3
                               )}
                               link={"/angular" as const}
                             >
@@ -572,7 +578,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__p2NTv
+                        sty.text__buEd
                       )}
                     >
                       {"Do it Yourself"}
@@ -583,7 +589,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__ciVwm
+                      sty.text__vhofl
                     )}
                   >
                     {
@@ -592,10 +598,10 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.columns__lu3Pu)}
+                    className={classNames(projectcss.all, sty.columns__riBzW)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.column___1EOxr)}
+                      className={classNames(projectcss.all, sty.column__woy57)}
                     >
                       <Button
                         className={classNames(
@@ -612,7 +618,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                     </div>
 
                     <div
-                      className={classNames(projectcss.all, sty.column__hWyXc)}
+                      className={classNames(projectcss.all, sty.column__g1RLr)}
                     >
                       <p.PlasmicLink
                         className={classNames(
@@ -630,7 +636,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___7Pb1F
+                            sty.text__nwedo
                           )}
                         >
                           {"Read Documentation >"}
@@ -979,7 +985,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp___1W8Nz
+                            sty.valueProp__d5Mcw
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1039,7 +1045,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__a5Gpi
+                            sty.valueProp__iwXym
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1058,7 +1064,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__yXoom
+                            sty.valueProp__dDIkQ
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1129,7 +1135,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__lQylr
+                            sty.valueProp__ifWpT
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1148,7 +1154,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__pBnk9
+                            sty.valueProp__t4MTe
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1167,7 +1173,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__ov97W
+                            sty.valueProp__xJ8
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1238,7 +1244,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__k63La
+                            sty.valueProp__qmOab
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1257,7 +1263,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__vtMyj
+                            sty.valueProp__cWfxu
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -1276,7 +1282,7 @@ function PlasmicLandingPagesSvelte2__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__gBhak
+                            sty.valueProp___1Ebnw
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}

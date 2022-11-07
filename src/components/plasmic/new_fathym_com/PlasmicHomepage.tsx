@@ -44,6 +44,8 @@ import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
+import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: ATxjjqNLrrq/css
 
@@ -154,6 +156,8 @@ function PlasmicHomepage__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsbzFq34BwReL2()
   });
@@ -179,6 +183,8 @@ function PlasmicHomepage__RenderFunc(props: {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
+            plasmic_new_habistack_com_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -1519,7 +1525,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__ceq4N
+                              sty.valueProp__kStwj
                             )}
                             description={
                               <div
@@ -1548,7 +1554,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp___52U
+                              sty.valueProp__nSLg
                             )}
                             description={
                               <div
@@ -1577,7 +1583,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__lKorr
+                              sty.valueProp___1TTdx
                             )}
                             description={
                               <div
@@ -1606,7 +1612,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__muGj5
+                              sty.valueProp__pHM6
                             )}
                             description={
                               <div
@@ -1676,7 +1682,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__vGtWy
+                              sty.valueProp__e2QAk
                             )}
                             description={"Single Sign-on and Access Control"}
                             flatIcon={true}
@@ -1695,7 +1701,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__yuEoS
+                              sty.valueProp__sb3I4
                             )}
                             description={"Application  Modifiers"}
                             flatIcon={true}
@@ -1714,7 +1720,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__x6Xux
+                              sty.valueProp__ezEbw
                             )}
                             description={"Server-less Functions"}
                             flatIcon={true}
@@ -1795,7 +1801,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__vd8AV
+                              sty.valueProp__jClN
                             )}
                             description={"Branded Custom Single Sign-on"}
                             flatIcon={true}
@@ -1814,7 +1820,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__bXfxm
+                              sty.valueProp__x6Yyj
                             )}
                             description={"Affiliate White-labeling"}
                             flatIcon={true}
@@ -1833,7 +1839,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__ipej
+                              sty.valueProp__jZfSh
                             )}
                             description={"Priority Support"}
                             flatIcon={true}
@@ -1904,7 +1910,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__xo6Lk
+                              sty.valueProp___9AosE
                             )}
                             description={"Customer Licensing Tools"}
                             flatIcon={true}
@@ -1923,7 +1929,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp__kx9Lm
+                              sty.valueProp__gAmia
                             )}
                             description={"Enterprise White Labeling"}
                             flatIcon={true}
@@ -1942,7 +1948,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           <ValueProp
                             className={classNames(
                               "__wab_instance",
-                              sty.valueProp___0EluE
+                              sty.valueProp__hNfsU
                             )}
                             description={"Cloud Cost Management"}
                             flatIcon={true}

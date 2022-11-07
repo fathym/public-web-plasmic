@@ -45,6 +45,8 @@ import { useScreenVariants as useScreenVariantsbzFq34BwReL2 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
+import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as projectcss from "./plasmic_new_fathym_com.module.css"; // plasmic-import: jbURxL3XuiMBQsLhf7apui/projectcss
 import * as sty from "./PlasmicLandingPagesMicroFrontends2Test.module.css"; // plasmic-import: D16KkgQ21Vy/css
 
@@ -162,6 +164,8 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsbzFq34BwReL2()
   });
@@ -187,6 +191,8 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
+            plasmic_new_habistack_com_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -623,7 +629,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__hZlOj
+                            sty.valueProp__wd8W
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -683,7 +689,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__dNvG1
+                            sty.valueProp___51K3T
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -702,7 +708,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__hBEa
+                            sty.valueProp__xjeLc
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -773,7 +779,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp___7Z4Lg
+                            sty.valueProp__fHffg
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -792,7 +798,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp___9KLQw
+                            sty.valueProp__uc5F
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -811,7 +817,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__mFeo7
+                            sty.valueProp__boIfk
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -882,7 +888,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__oXzu
+                            sty.valueProp__xJFsb
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -901,7 +907,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__fb8PN
+                            sty.valueProp___4GklD
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}
@@ -920,7 +926,7 @@ function PlasmicLandingPagesMicroFrontends2Test__RenderFunc(props: {
                         <ValueProp
                           className={classNames(
                             "__wab_instance",
-                            sty.valueProp__sIdK8
+                            sty.valueProp__tpqSa
                           )}
                           description={"Nulla odio mauris."}
                           flatIcon={true}

@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicHamburgerMenu,
   DefaultHamburgerMenuProps
-} from "./plasmic/new_fathym_com/PlasmicHamburgerMenu";
+} from "./plasmic/new_habistack_com/PlasmicHamburgerMenu";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

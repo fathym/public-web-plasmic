@@ -263,24 +263,24 @@
   line-height: 28px;
   padding-bottom: 0px;
 }
-.freeBox__kO3Mc {
+.freeBox__agWuV {
   flex-direction: column;
   max-width: var(--token-_lqAwWtqgIF3);
   display: flex;
   position: relative;
   margin-top: 64px;
 }
-.freeBox__kO3Mc > :global(.__wab_flex-container) {
+.freeBox__agWuV > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
   margin-top: calc(0px - 48px);
   height: calc(100% + 48px);
 }
-.freeBox__kO3Mc > :global(.__wab_flex-container) > *,
-.freeBox__kO3Mc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__kO3Mc > :global(.__wab_flex-container) > picture > img,
-.freeBox__kO3Mc
+.freeBox__agWuV > :global(.__wab_flex-container) > *,
+.freeBox__agWuV > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__agWuV > :global(.__wab_flex-container) > picture > img,
+.freeBox__agWuV
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -288,7 +288,7 @@
   margin-top: 48px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__kO3Mc {
+  .freeBox__agWuV {
     max-width: var(--token-_lqAwWtqgIF3);
     display: flex;
     position: relative;
@@ -297,7 +297,7 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__kO3Mc > :global(.__wab_flex-container) {
+  .freeBox__agWuV > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
@@ -308,10 +308,10 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__kO3Mc > :global(.__wab_flex-container) > *,
-  .freeBox__kO3Mc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-  .freeBox__kO3Mc > :global(.__wab_flex-container) > picture > img,
-  .freeBox__kO3Mc
+  .freeBox__agWuV > :global(.__wab_flex-container) > *,
+  .freeBox__agWuV > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__agWuV > :global(.__wab_flex-container) > picture > img,
+  .freeBox__agWuV
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
     > picture
@@ -320,22 +320,22 @@
     margin-top: 24px;
   }
 }
-.freeBox__nuOoY {
+.freeBox__dIeF {
   flex-direction: row;
   display: flex;
   position: relative;
 }
-.freeBox__nuOoY > :global(.__wab_flex-container) {
+.freeBox__dIeF > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
-.freeBox__nuOoY > :global(.__wab_flex-container) > *,
-.freeBox__nuOoY > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__nuOoY > :global(.__wab_flex-container) > picture > img,
-.freeBox__nuOoY
+.freeBox__dIeF > :global(.__wab_flex-container) > *,
+.freeBox__dIeF > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__dIeF > :global(.__wab_flex-container) > picture > img,
+.freeBox__dIeF
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -343,14 +343,14 @@
   margin-left: 10px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__nuOoY {
+  .freeBox__dIeF {
     display: flex;
     flex-direction: column;
     position: relative;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__nuOoY > :global(.__wab_flex-container) {
+  .freeBox__dIeF > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
@@ -361,10 +361,10 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__nuOoY > :global(.__wab_flex-container) > *,
-  .freeBox__nuOoY > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-  .freeBox__nuOoY > :global(.__wab_flex-container) > picture > img,
-  .freeBox__nuOoY
+  .freeBox__dIeF > :global(.__wab_flex-container) > *,
+  .freeBox__dIeF > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__dIeF > :global(.__wab_flex-container) > picture > img,
+  .freeBox__dIeF
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
     > picture
@@ -396,14 +396,14 @@
 .react {
   display: flex;
 }
-.text___55WFh {
+.text__dUhzt {
   height: auto;
   width: auto;
   color: var(--token-vImgGkP7257E);
   text-align: left;
   font-weight: 700;
 }
-.button__orvOt:global(.__wab_instance) {
+.button__eI3Bf:global(.__wab_instance) {
   display: none;
 }
 .svg__cdU5W {
@@ -446,13 +446,13 @@
 .vue {
   display: flex;
 }
-.text___2InBy {
+.text__mf6J4 {
   height: auto;
   width: auto;
   color: var(--token-vImgGkP7257E);
   font-weight: 700;
 }
-.button__jc7Vf:global(.__wab_instance) {
+.button__uAlRp:global(.__wab_instance) {
   display: none;
 }
 .svg__sZcw {
@@ -496,13 +496,13 @@
 .svelte {
   display: flex;
 }
-.text__sOugM {
+.text__ly3Xx {
   height: auto;
   width: auto;
   color: var(--token-vImgGkP7257E);
   font-weight: 700;
 }
-.button__tcixz:global(.__wab_instance) {
+.button__ufOvi:global(.__wab_instance) {
   display: none;
 }
 .svg__mg3Wr {
@@ -539,7 +539,7 @@
   max-width: 100%;
   position: relative;
 }
-.text__p2NTv {
+.text__w1ZHo {
   font-size: 48px;
   font-weight: 800;
   color: var(--token-Gh2swhE2QtwV);
@@ -547,7 +547,7 @@
   height: auto;
   padding-right: 0px;
 }
-.text__ciVwm {
+.text__t00th {
   position: relative;
   width: 100%;
   height: auto;
@@ -557,7 +557,7 @@
   font-size: 18px;
   min-width: 0;
 }
-.columns__eNf1S {
+.columns__bqfFd {
   display: flex;
   position: relative;
   width: auto;
@@ -568,14 +568,14 @@
   flex-wrap: nowrap;
   padding: 8px;
 }
-.columns__eNf1S > :nth-child(2n + 1) {
+.columns__bqfFd > :nth-child(2n + 1) {
   width: calc((100% - 2 * 0px) * 6 / 12);
 }
-.columns__eNf1S > :nth-child(2n + 2) {
+.columns__bqfFd > :nth-child(2n + 2) {
   width: calc((100% - 2 * 0px) * 6 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .columns__eNf1S {
+  .columns__bqfFd {
     width: 100%;
     height: auto;
     flex-direction: row;
@@ -584,11 +584,11 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .columns__eNf1S > :nth-child(1n + 1) {
+  .columns__bqfFd > :nth-child(1n + 1) {
     width: calc((100% - 1 * 0px) * 12 / 12);
   }
 }
-.column___8URFu {
+.column__cq0Vc {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -615,7 +615,7 @@
   position: relative;
   object-fit: cover;
 }
-.column__rdhWw {
+.column__nds8R {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -627,10 +627,10 @@
   min-width: 0;
   padding: 8px 8px 8px 21px;
 }
-.link__xKbY {
+.link__zQGk {
   display: flex;
 }
-.text__uNsew {
+.text__emC {
   height: auto;
   width: auto;
   color: var(--token-vImgGkP7257E);
@@ -1167,7 +1167,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__gnokw:global(.__wab_instance) {
+.valueProp__tvRD:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1198,7 +1198,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__ei9F8:global(.__wab_instance) {
+.valueProp__xyc5:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1208,7 +1208,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__dTtgk:global(.__wab_instance) {
+.valueProp___5SOg:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1239,7 +1239,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__gs9On:global(.__wab_instance) {
+.valueProp__zbMy:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1249,7 +1249,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__bwxTo:global(.__wab_instance) {
+.valueProp__jAtPk:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1259,7 +1259,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__qaKSn:global(.__wab_instance) {
+.valueProp__bLvmt:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1290,7 +1290,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__tmobF:global(.__wab_instance) {
+.valueProp__tUnil:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1300,7 +1300,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp__aoQ61:global(.__wab_instance) {
+.valueProp__wG0Ue:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
@@ -1310,7 +1310,7 @@
   width: 24px;
   height: 24px;
 }
-.valueProp___5VoB:global(.__wab_instance) {
+.valueProp__x7Gg5:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }
