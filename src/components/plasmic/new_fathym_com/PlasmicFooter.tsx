@@ -355,7 +355,6 @@ function PlasmicFooter__RenderFunc(props: {
                 sty.enterpriseAgreement
               )}
               component={Link}
-              href={`/enterprise-agreement-old`}
               platform={"gatsby"}
               target={undefined}
             >
@@ -372,7 +371,6 @@ function PlasmicFooter__RenderFunc(props: {
                 sty.termsOfService
               )}
               component={Link}
-              href={`/terms-of-services-old`}
               platform={"gatsby"}
               target={undefined}
             >
@@ -389,7 +387,6 @@ function PlasmicFooter__RenderFunc(props: {
                 sty.privacyPolicy
               )}
               component={Link}
-              href={`/privacy-policy-old`}
               platform={"gatsby"}
               target={undefined}
             >

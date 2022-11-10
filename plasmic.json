@@ -143,19 +143,6 @@
       "cssFilePath": "plasmic/new_fathym_com/plasmic_new_fathym_com.module.css",
       "components": [
         {
-          "id": "Z0tmI2kZtwu",
-          "name": "HomepageOld",
-          "type": "managed",
-          "projectId": "jbURxL3XuiMBQsLhf7apui",
-          "renderModuleFilePath": "plasmic/new_fathym_com/PlasmicHomepageOld.tsx",
-          "importSpec": {
-            "modulePath": "../pages/old_home.tsx"
-          },
-          "cssFilePath": "plasmic/new_fathym_com/PlasmicHomepageOld.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "yPO2dsHR0-Dj",
           "name": "LandingPagesSvelte",
           "type": "managed",
@@ -559,45 +546,6 @@
             "modulePath": "../pages/home2.tsx"
           },
           "cssFilePath": "plasmic/new_fathym_com/PlasmicHomepageVariant2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "IM6IUPKqqu",
-          "name": "OldEnterpriseAgreement",
-          "type": "managed",
-          "projectId": "jbURxL3XuiMBQsLhf7apui",
-          "renderModuleFilePath": "plasmic/new_fathym_com/PlasmicOldEnterpriseAgreement.tsx",
-          "importSpec": {
-            "modulePath": "../pages/enterprise-agreement-old.tsx"
-          },
-          "cssFilePath": "plasmic/new_fathym_com/PlasmicOldEnterpriseAgreement.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "4hgTMGuV5F0",
-          "name": "OldTermsOfServices",
-          "type": "managed",
-          "projectId": "jbURxL3XuiMBQsLhf7apui",
-          "renderModuleFilePath": "plasmic/new_fathym_com/PlasmicOldTermsOfServices.tsx",
-          "importSpec": {
-            "modulePath": "../pages/terms-of-services-old.tsx"
-          },
-          "cssFilePath": "plasmic/new_fathym_com/PlasmicOldTermsOfServices.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "8Fxhz1anqdV",
-          "name": "OldPrivacyPolicy",
-          "type": "managed",
-          "projectId": "jbURxL3XuiMBQsLhf7apui",
-          "renderModuleFilePath": "plasmic/new_fathym_com/PlasmicOldPrivacyPolicy.tsx",
-          "importSpec": {
-            "modulePath": "../pages/privacy-policy-old.tsx"
-          },
-          "cssFilePath": "plasmic/new_fathym_com/PlasmicOldPrivacyPolicy.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         },
